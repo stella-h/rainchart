@@ -1,0 +1,9 @@
+/node_modules/
+.DS_Store
+.babelrc
+/.babel-cache/
+.cache
+dist
+package-lock.json
+.vscode/
+/.git

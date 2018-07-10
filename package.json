@@ -1,0 +1,21 @@
+{
+  "name": "test-hyper",
+  "version": "1.0.0",
+  "description": "testing hyper app with chart library of choice",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "author": "github.com/stella-h",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "hyperapp": "^1.2.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
