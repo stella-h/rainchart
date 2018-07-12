@@ -6,6 +6,9 @@ const spec = {
   "data": { "url": "https://datasette-riokxmdoqj.now.sh/data-7845d4c/seattle-weather.json?_shape=array"},
   "mark": "circle",
   "tooltip": false,
+  "config" : {
+    "view": { "fill": '#bada55'}
+  },
   "encoding": {
     "y": {
       "field": "temp_min",
@@ -37,4 +40,7 @@ const view = () => (
   </main>
 )
 
+console.log("hello world!")
+
 app({}, {}, view, document.body)
+// app(state, actions, view, document.body)
